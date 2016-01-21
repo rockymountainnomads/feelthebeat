@@ -319,7 +319,7 @@ div.custom {
 }
 
 /* IPHONE 6*/
-@media screen and (max-width: 400px)  { 
+@media screen and (max-width: 320px)  { 
     
     .heart {
             width: 81%;
