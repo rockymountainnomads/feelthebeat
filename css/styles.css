@@ -358,8 +358,7 @@ div.custom {
 /********************************************LARGE MONITOR*/
 @media screen and (min-width: 1600px) {
     
-    html {
-        background: blue; 
+    html { 
     }
     .heart {
         padding-top: 8em;
@@ -391,8 +390,7 @@ div.custom {
 
 /********************************************IPAD*/
 @media screen and (min-width: 768px) {
-    html {
-        background: red; 
+    html { 
     }
     .uhnce {
         margin-top: -16.5em; 
@@ -430,7 +428,6 @@ div.custom {
 
 @media screen and (max-width: 640px) {
     html {
-        background: green;
     }
     
     .uhnce {
