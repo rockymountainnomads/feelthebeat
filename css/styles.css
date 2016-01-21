@@ -171,6 +171,21 @@ h1 a {
     margin-right: auto; 
     margin-top: 3em;
 }
+
+img.grid-6 {
+    border-radius: 30%; 
+    margin-top: 13em;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight: 300; 
+    color: white;
+    font-size: 8em;
+    letter-spacing: .1em;
+    text-align: center;
+    margin-top: 4em; 
+}
 /*ANIMATIONS*/
 
 .bounceIn { 
