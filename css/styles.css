@@ -2,7 +2,7 @@ body{
     background-color: black; 
 }
 
-img {
+.heart {
     width: 35%; 
     height: 35%; 
     display: block; 
@@ -10,3 +10,65 @@ img {
     margin-left: auto; 
     padding-top: 2em;
 }
+
+.uhnce {
+    z-index: 1; 
+    margin-top: -29.5em;
+    width: 30%; 
+    height: 30%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+nav{
+  background: none; 
+  position: fixed; 
+  width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white; 
+    font-weight: 300; 
+
+}
+
+ul {
+    margin-right: 1em; 
+    list-style-type: none; 
+}
+
+nav ul li {
+    float: right;
+    margin-right: 2em;
+
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    letter-spacing: .5em; 
+
+}
+
+footer {
+    color: white; 
+    text-align: center; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top: 40em; 
+    font-family: 'Source Sans Pro', sans-seif; 
+    font-weight: 300; 
+    margin-bottom: 1em; 
+}
+
+h1{
+    color: white; 
+    text-align: center; 
+    font-family: 'Source Sans Pro', sans-seif; 
+    font-weight: 300;
+    margin-top: 8em;
+    letter-spacing: .25em;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
