@@ -282,75 +282,7 @@ div.custom {
 
 /*MEDIA QUERIES*/
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : landscape) {
-    .heart {
-        width:81%;
-        padding-top:0em;
-    
-    }
-    .uhnce {
-            margin-top: -22.5em;
-            width: 77%;
-        
-    }
-    
-    nav{
-        font-size: 1em;
-        line-height: 2em;
-    }
-    
-    h1{
-            line-height: 1.5em;
-    }
-    
-    .large-heart {
-            width: 92%;
-    }
-    
-    h4{
-            font-size: 5em;
-        padding-bottom:1em;
-    }
-    
-    .big {
-            font-size: 3em;
-    }
-    
-    .red{
-        margin-bottom: 2em;
-    
-    }
-    
-    .copy {
-        width: 80%;
-    text-align: left;
-    }
-    
-    p{
-        font-size: 1em;
-    }
-    
-    h2 {
-            margin-top: 2em;
-    font-size: 6em;
-    }
-    
-    #tickets-nav {
-            margin-top: -12em;
-    }
-    
-    h3 a {
-            margin-top: 0.5em;
-    }
-    
-    .ticket img {
-            width: 84%;
-    }
-    
-}
+
 
 /* IPHONE 6**********************************************************NOT WORKING*/
 /*
@@ -422,7 +354,10 @@ and (orientation : landscape) {
 */
 
 /*IPAD*/
-@media screen and (max-width: 768px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
     .uhnce {
         margin-top: -16.5em; 
     }
@@ -454,6 +389,80 @@ and (orientation : landscape) {
         div.social {
             width: 15%;
             height: 15%;
+        }
+}
+
+/*IPHONE*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+    .heart {
+        width:81%;
+        padding-top:0em;
+    
+    }
+    .uhnce {
+            margin-top: -22.5em;
+            width: 77%;
+        
+    }
+    
+    nav{
+        font-size: 1em;
+        line-height: 2em;
+    }
+    
+    h1{
+            line-height: 1.5em;
+    }
+    
+    .large-heart {
+            width: 92%;
+    }
+    
+    h4{
+            font-size: 5em;
+        padding-bottom:1em;
+    }
+    
+    .big {
+            font-size: 3em;
+    }
+    
+    .red{
+        margin-bottom: 2em;
+    
+    }
+    
+    .copy {
+        width: 80%;
+    text-align: left;
+    }
+    
+    p{
+        font-size: 1em;
+    }
+    
+    h2 {
+            margin-top: 2em;
+            font-size: 14em;
+    }
+    
+    #tickets-nav {
+            margin-top: -12em;
+    }
+    
+    h3 a {
+            margin-top: 0.5em;
+    }
+    
+    .ticket img {
+            width: 84%;
+    }
+    
+    .about {
+        margin-top: 0.75em;
         }
 }
 
