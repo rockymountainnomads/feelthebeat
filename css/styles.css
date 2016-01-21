@@ -3,7 +3,7 @@ body{
 }
 
 #tickets-nav {
-    margin-top: -7em; 
+    margin-top: -10em; 
 }
 
 #about-nav {
@@ -130,6 +130,16 @@ h3 a {
     
 }
 
+p a {
+    color: white; 
+    text-decoration: none ; 
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight: 300; 
+    font-size: 1em; 
+    display: block; 
+    text-align: center; 
+    
+}
 
 h1 a {
     text-decoration: none; 
@@ -210,6 +220,7 @@ p{
     font-size:2em;
     letter-spacing: .2em;
     margin-top: -1.5em; 
+    
 }
 
 .copy {
@@ -234,6 +245,22 @@ p{
 .what {
     margin-top: -8em; 
 }
+
+div.social {
+    width: 30%; 
+    height: 30%; 
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+}
+
+div.custom {
+   margin-top: -8em;  
+}
+
+.back{
+    margin-top: 3em; 
+}
+
 
 /*ANIMATIONS*/
 
