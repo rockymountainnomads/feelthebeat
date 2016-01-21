@@ -1,21 +1,9 @@
+/********************************************************************GLOBAL*/
 body{
     background-color: black; 
 }
 
-#header-nav{
-    z-index: 2; 
-}
-
-#tickets-nav {
-    margin-top: -10em; 
-    z-index: 2; 
-}
-
-#about-nav {
-    margin-top: -3em; 
-    z-index: 2; 
-}
-
+/********************************************************************IMAGES*/
 .heart {
     width: 35%; 
     height: 35%; 
@@ -35,6 +23,46 @@ body{
     z-index: 0; 
     position:relative;
 }
+.ticket img {
+    width: 30%; 
+    height: 30%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 7em; 
+    margin-bottom: -8em;  
+    box-shadow: .3em .3em .8em rgba(151,151,151,.5)
+}
+
+.collage {
+    width: 80%; 
+    height: 80%; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+    border-left-color: rgb(204,51,51);
+    border-top-color: rgb(204,51,51);
+    border-width: 2em; 
+    border-style: solid;
+    margin-top: 10em; 
+}
+
+.large-heart {
+    width: 35%; 
+    height: 35%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 3em;
+}
+
+img.grid-6 {
+    border-radius: 30%; 
+    margin-top: 13em;
+}
+
+
+/********************************************************************NAVIGATION*/
 
 nav{
   background: black; 
@@ -57,10 +85,6 @@ nav ul li {
 
 }
 
-a:hover {
-    color: rgb(204,51,51); 
-}
-
 nav ul li a {
     text-decoration: none; 
     color: white; 
@@ -68,6 +92,25 @@ nav ul li a {
 
 }
 
+#about-nav {
+    margin-top: -3em; 
+    z-index: 2; 
+}
+
+#header-nav{
+    z-index: 2; 
+}
+
+#tickets-nav {
+    margin-top: -10em; 
+    z-index: 2; 
+}
+
+a:hover {
+    color: rgb(204,51,51); 
+}
+
+/********************************************************************FOOTER*/
 footer {
     color: white; 
     text-align: center; 
@@ -94,6 +137,7 @@ footer {
     margin-top: 23em; 
 }
 
+/********************************************************************TEXT FORMATTING*/
 h1{
     color: white; 
     text-align: center; 
@@ -150,47 +194,6 @@ p a {
 h1 a {
     text-decoration: none; 
     color: white; 
-}
-
-.ticket img {
-    width: 30%; 
-    height: 30%; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-top: 7em; 
-    margin-bottom: -8em;  
-    
-/* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: .3em .3em .8em rgba(151,151,151,.5)
-}
-
-
-.collage {
-    width: 80%; 
-    height: 80%; 
-    display: block; 
-    margin-right: auto; 
-    margin-left: auto;
-    border-left-color: rgb(204,51,51);
-    border-top-color: rgb(204,51,51);
-    border-width: 2em; 
-    border-style: solid;
-    margin-top: 10em; 
-}
-
-.large-heart {
-    width: 35%; 
-    height: 35%; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-top: 3em;
-}
-
-img.grid-6 {
-    border-radius: 30%; 
-    margin-top: 13em;
 }
 
 h4 {
@@ -252,6 +255,12 @@ p{
     margin-top: -8em; 
 }
 
+
+.back{
+    margin-top: 3em; 
+}
+
+/********************************************************************DIVS*/
 div.social {
     width: 30%; 
     height: 30%; 
@@ -263,13 +272,9 @@ div.custom {
    margin-top: -8em;  
 }
 
-.back{
-    margin-top: 3em; 
-}
 
 
-/*ANIMATIONS*/
-
+/********************************************************************ANIMATIONS*/
 .bounceIn { 
     animation-timing-function:cubic-bezier(.17,.67,.73,.2);
     animation-iteration-count: infinite; 
@@ -280,11 +285,8 @@ div.custom {
 }
 
 
-/*MEDIA QUERIES*/
-
-
-
-/* IPHONE 6**********************************************************NOT WORKING*/
+/********************************************************************MEDIA QUERIES*/
+/* IPHONE 6*******************************************NOT WORKING*/
 /*
 @media screen and (max-width: 400px)  { 
     
@@ -353,7 +355,7 @@ div.custom {
 }
 */
 
-/*IPAD*/
+/********************************************IPAD*/
 @media screen and (max-width: 768px) {
     .uhnce {
         margin-top: -16.5em; 
