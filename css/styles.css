@@ -356,6 +356,34 @@ div.custom {
 */
 
 /********************************************IPAD*/
+@media screen and (min-width: 1660px) {
+    .heart {
+        padding-top: 8em;
+    }
+    .uhnce {
+            margin-top: -61.5em;
+    }
+    
+    h1 {
+        margin-top: 24em;
+    }
+    
+    footer {
+            padding-top: 4em;
+    }
+    
+    .about {
+            margin-top: -4.25em;
+    }
+    
+    .medium {
+            margin-top: 14.5em;
+    }
+    
+    #tickets-footer {
+            margin-top: 48em;
+    }
+}
 @media screen and (max-width: 768px) {
     .uhnce {
         margin-top: -16.5em; 
