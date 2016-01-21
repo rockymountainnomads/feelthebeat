@@ -3,7 +3,11 @@ body{
 }
 
 #tickets-nav {
-    margin-top: -5em; 
+    margin-top: -7em; 
+}
+
+#about-nav {
+    margin-top: -3em; 
 }
 
 .heart {
@@ -98,13 +102,20 @@ h2{
     text-align:center; 
     font-family: 'Source Sans Pro', sans-seif;
     font-weight:300; 
-    margin-top: ; 
+    margin-top:1em; 
     font-size: 10em; 
-    
+}
+
+#tickets {
+    line-height: 1em;
 }
 
 .about {
-    margin-top:  -3.9em; 
+    margin-top: -2.25em;
+    line-height: 1em; 
+    letter-spacing: .1em;
+    z-index: 1; 
+    position: relative; 
 }
 
 h3 a {
@@ -115,7 +126,7 @@ h3 a {
     font-size: 2em; 
     display: block; 
     text-align: center; 
-    margin-top: -4em;
+    margin-top: -3.5em;
     
 }
 
@@ -131,7 +142,7 @@ h1 a {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 5em; 
+    margin-top: 7em; 
     margin-bottom: -8em;  
     
 /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -146,18 +157,30 @@ h1 a {
     margin-right: auto; 
     margin-left: auto;
     border-left-color: rgb(204,51,51);
+    border-top-color: rgb(204,51,51);
     border-width: 2em; 
-    border-style: solid; 
+    border-style: solid;
+    margin-top: 10em; 
 }
 
+.large-heart {
+    width: 35%; 
+    height: 35%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 3em;
+}
 /*ANIMATIONS*/
 
-.bounceIn {
-    animation-delay: 1s; 
+.bounceIn { 
     animation-timing-function:cubic-bezier(.17,.67,.73,.2);
     animation-iteration-count: infinite; 
 }
 
+.slideInLeft {
+    animation-delay: .5s; 
+}
 
 
 
