@@ -85,7 +85,7 @@ footer {
 }
 
 #about-footer {
-    margin-top: 82em; 
+    margin-top: 23em; 
 }
 
 h1{
@@ -184,8 +184,57 @@ h4 {
     font-size: 8em;
     letter-spacing: .1em;
     text-align: center;
-    margin-top: 4em; 
+    margin-top: 2em; 
 }
+
+p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em; 
+    
+}
+
+.big {
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight: 300;
+    font-size:5em;
+    letter-spacing: .2em; 
+    margin-top: -1.5em;
+}
+
+.medium {
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight: 300;
+    font-size:2em;
+    letter-spacing: .2em;
+    margin-top: -1.5em; 
+}
+
+.copy {
+    width: 50%; 
+    text-align: justify; 
+    margin-left: auto; 
+    margin-right: auto; 
+    letter-spacing: .05em; 
+}
+
+.who {
+    margin-top: -.0em; 
+    padding-top: .5em; 
+}
+
+.red {
+    background-color: rgb(240, 51, 51);
+    padding-top: .5em; 
+    padding-bottom: .5em; 
+}
+
+.what {
+    margin-top: -8em; 
+}
+
 /*ANIMATIONS*/
 
 .bounceIn { 
