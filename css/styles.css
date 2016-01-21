@@ -2,17 +2,20 @@ body{
     background-color: black; 
 }
 
+#tickets-nav {
+    margin-top: -5em; 
+}
+
 .heart {
     width: 35%; 
     height: 35%; 
     display: block; 
     margin-right: auto; 
     margin-left: auto; 
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
-.uhnce {
-    z-index: 1; 
+.uhnce { 
     margin-top: -29.5em;
     width: 30%; 
     height: 30%; 
@@ -22,7 +25,7 @@ body{
 }
 
 nav{
-  background: none; 
+  background: black; 
   position: fixed; 
   width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
@@ -40,6 +43,10 @@ nav ul li {
     float: right;
     margin-right: 2em;
 
+}
+
+a:hover {
+    color: rgb(204,51,51); 
 }
 
 nav ul li a {
@@ -61,6 +68,20 @@ footer {
     margin-bottom: 1em; 
 }
 
+#index-footer {
+    margin-top: 20em;
+}
+
+#tickets-footer { 
+    display: block;
+    margin-top: 23em; 
+    
+}
+
+#about-footer {
+    margin-top: 82em; 
+}
+
 h1{
     color: white; 
     text-align: center; 
@@ -70,6 +91,66 @@ h1{
     letter-spacing: .25em;
 }
 
-.grow { 
-    -webkit-transition: all .2s ease-in-out; 
+h2{
+    color: white; 
+    text-align:center; 
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight:300; 
+    margin-top: ; 
+    font-size: 10em; 
+    
 }
+
+.about {
+    margin-top:  -3.9em; 
+}
+
+h3 a {
+    color: white; 
+    text-decoration: none ; 
+    font-family: 'Source Sans Pro', sans-seif;
+    font-weight: 300; 
+    font-size: 2em; 
+    display: block; 
+    text-align: center; 
+    margin-top: -4em;
+    
+}
+
+
+h1 a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.ticket img {
+    width: 30%; 
+    height: 30%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 5em; 
+    margin-bottom: -8em; 
+    
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: .3em .3em .8em rgba(151,151,151,.5)
+}
+
+
+.collage {
+    width: 80%; 
+    height: 80%; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+    border-left-color: rgb(204,51,51);
+    border-width: 2em; 
+    border-style: solid; 
+}
+
+
+
+
+
+
+
