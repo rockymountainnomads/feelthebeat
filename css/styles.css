@@ -294,18 +294,22 @@ div.custom {
 
 /********************************************************************MEDIA QUERIES*/
 @media screen and (min-width: 1000px) {
+/*
     nav {
         background-color: red; 
     }
+*/
 
     
 /****************************END OF QUERY*/
 }
 
 @media screen and (min-width: 2200px) {
+/*
     nav {
         background-color: green; 
     }
+*/
     .uhnce {
         margin-top: -58.5em;
     }
